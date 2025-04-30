@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма збору даних</title>
+</head>
+<body>
+    <h2>Форма збору інформації</h2>
+    <form action="/submit" method="post">
+        Ім'я: <input type="text" name="name" required><br><br>
+        Вік: <input type="number" name="age" required><br><br>
+        Стать:
+        <select name="gender">
+            <option value="Чоловік">Чоловік</option>
+            <option value="Жінка">Жінка</option>
+            <option value="Інше">Інше</option>
+        </select><br><br>
+        Інтереси:<br>
+        <input type="checkbox" name="interests" value="Спорт"> Спорт<br>
+        <input type="checkbox" name="interests" value="Музика"> Музика<br>
+        <input type="checkbox" name="interests" value="Програмування"> Програмування<br><br>
+        <input type="submit" value="Надіслати">
+    </form>
+</body>
+</html>
